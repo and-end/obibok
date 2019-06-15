@@ -8,7 +8,7 @@ Repozytorium używa modelu [GitFlow](https://datasift.github.io/gitflow/Introduc
 
 Wiadomości commitów muszą przestrzegać zasad: [AngularJS commit conventions](https://gist.github.com/stephenparish/9941e89d80e2bc58a153). Pozwala to zachować porządek w zarządzaniu wersji kodu.
 
-## Udostępnianie swoich zmian do repozytorium Radiowęzeł Elektryk
+## Udostępnianie swoich zmian do repozytorium obibok
 
 1. Zrób [Fork](https://help.github.com/articles/fork-a-repo/) projektu
 2. Skonfiguruj i uruchom aplikację w trybie deweloperskim. W [README](README.md) opisane jest jak skonfigurować i uruchomić aplikację w swoim środowisku.
