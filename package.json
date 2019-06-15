@@ -3,10 +3,10 @@
   "private": true,
   "scripts": {
     "bootstrap": "lerna bootstrap",
-    "lint": "lerna run lint",
-    "lint-dry": "lerna run lint-dry",
-    "format": "lerna run format",
-    "format-dry": "lerna run format-dry"
+    "lint": "lerna run lint --stream",
+    "lint-dry": "lerna run lint-dry --stream",
+    "format": "lerna run format --stream",
+    "format-dry": "lerna run format-dry --stream"
   },
   "husky": {
     "hooks": {
