@@ -1,7 +1,19 @@
 {
   "name": "obibok",
   "private": true,
+  "scripts": {},
+  "husky": {
+    "hooks": {
+      "commitmsg": "commitlint -e $GIT_PARAMS"
+    }
+  },
   "devDependencies": {
+    "@commitlint/cli": "^8.0.0",
+    "@commitlint/config-angular": "^8.0.0",
+    "@commitlint/config-angular-type-enum": "^8.0.0",
+    "@commitlint/prompt": "^8.0.0",
+    "@commitlint/prompt-cli": "^8.0.0",
+    "husky": "^2.4.1",
     "lerna": "^3.15.0"
   }
 }
