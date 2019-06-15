@@ -4,7 +4,9 @@
   "scripts": {
     "bootstrap": "lerna bootstrap",
     "lint": "lerna run lint",
-    "lint-dry": "lerna run lint-dry"
+    "lint-dry": "lerna run lint-dry",
+    "format": "lerna run format",
+    "format-dry": "lerna run format-dry"
   },
   "husky": {
     "hooks": {
@@ -24,8 +26,10 @@
     "eslint-plugin-import": "^2.17.3",
     "husky": "^2.4.1",
     "lerna": "^3.15.0",
+    "prettier": "^1.18.2",
     "tslint": "^5.17.0",
     "tslint-config-airbnb": "^5.11.1",
+    "tslint-config-prettier": "^1.18.0",
     "typescript": "^3.5.2"
   }
 }
