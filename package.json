@@ -7,7 +7,8 @@
     "lint-dry": "lerna run lint-dry --stream",
     "format": "lerna run format --stream",
     "format-dry": "lerna run format-dry --stream",
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release",
+    "test": "echo \"Travis test\""
   },
   "husky": {
     "hooks": {
