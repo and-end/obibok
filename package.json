@@ -1,6 +1,10 @@
 {
   "name": "obibok",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/and-end/obibok"
+  },
   "scripts": {
     "bootstrap": "lerna bootstrap",
     "lint": "lerna run lint --stream",
