@@ -1,7 +1,11 @@
 {
   "name": "obibok",
   "private": true,
-  "scripts": {},
+  "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "lint": "lerna run lint",
+    "lint-dry": "lerna run lint-dry"
+  },
   "husky": {
     "hooks": {
       "commitmsg": "commitlint -e $GIT_PARAMS"
@@ -13,7 +17,15 @@
     "@commitlint/config-angular-type-enum": "^8.0.0",
     "@commitlint/prompt": "^8.0.0",
     "@commitlint/prompt-cli": "^8.0.0",
+    "@types/node": "^12.0.8",
+    "@typescript-eslint/eslint-plugin-tslint": "^1.10.2",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.17.3",
     "husky": "^2.4.1",
-    "lerna": "^3.15.0"
+    "lerna": "^3.15.0",
+    "tslint": "^5.17.0",
+    "tslint-config-airbnb": "^5.11.1",
+    "typescript": "^3.5.2"
   }
 }

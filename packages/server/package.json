@@ -1,0 +1,8 @@
+{
+    "name": "obibok-server",
+    "private": true,
+    "scripts": {
+        "lint": "tslint --fix -t prose -c ./tslint.json -p ./tsconfig.json",
+        "lint-dry": "tslint -t prose -c ./tslint.json -p ./tsconfig.json"
+    }
+}
