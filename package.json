@@ -13,7 +13,7 @@
     "format-dry": "lerna run format-dry --stream",
     "semantic-release": "semantic-release",
     "test": "echo \"Travis test\"",
-    "predeploy": "git checkout continuous-integration/travis-ci && git pull origin develop --ff-only",
+    "predeploy": "git checkout continuous-integration/travis-ci && git pull origin develop --rebase",
     "deploy": "git push origin continuous-integration/travis-ci",
     "postdeploy": "git checkout -"
   },
