@@ -22,6 +22,6 @@ upload_files() {
 }
 
 setup_git
-pull_files
 commit_website_files
+pull_files
 upload_files
