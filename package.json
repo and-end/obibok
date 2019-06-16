@@ -105,5 +105,5 @@
     "tslint-config-prettier": "^1.18.0",
     "typescript": "^3.5.2"
   },
-  "version": "1.0.0"
+  "version": "1.0.1"
 }
