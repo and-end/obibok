@@ -1,7 +1,7 @@
-const angularTypes = require('@commitlint/config-angular-type-enum');
+const angularTypes = require('@commitlint/config-angular-type-enum').value();
 
 const types = [
-  angularTypes.value(),
+  ...angularTypes,
   'chore'
 ];
 
