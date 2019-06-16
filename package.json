@@ -12,7 +12,10 @@
     "format": "lerna run format --stream",
     "format-dry": "lerna run format-dry --stream",
     "semantic-release": "semantic-release",
-    "test": "echo \"Travis test\""
+    "test": "echo \"Travis test\"",
+    "predeploy": "git checkout continuous-integration/travis-ci",
+    "deploy": "git push origin continuous-integration/travis-ci",
+    "postdeploy": "git checkout -"
   },
   "husky": {
     "hooks": {
