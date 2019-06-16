@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/and-end/obibok/compare/v1.1.0...v1.1.1) (2019-06-16)
+
+
+### Bug Fixes
+
+* **ci:** allow travisci script to be executable ([5592c7b](https://github.com/and-end/obibok/commit/5592c7b))
+
 # [1.1.0](https://github.com/and-end/obibok/compare/v1.0.2...v1.1.0) (2019-06-16)
 
 
