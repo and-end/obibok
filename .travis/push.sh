@@ -3,6 +3,11 @@
 setup_git() {
   git config --global user.email "travis@travis-ci.org"
   git config --global user.name "Travis CI"
+  git remote add origin-obibok https://${GH_TOKEN}@github.com/and-end/obibok.git > /dev/null 2>&1
+}
+
+pull_files() {
+  git pull origin-obibok continuous-integration/travis-ci --rebase
 }
 
 commit_website_files() {
@@ -12,10 +17,10 @@ commit_website_files() {
 }
 
 upload_files() {
-  git remote add origin-obibok https://${GH_TOKEN}@github.com/and-end/obibok.git > /dev/null 2>&1
   git push --set-upstream origin-obibok
 }
 
 setup_git
+pull_files
 commit_website_files
 upload_files
