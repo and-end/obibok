@@ -9,7 +9,7 @@
     "noImplicitThis": false,
     "noImplicitAny": false,
     "alwaysStrict": true,
-    "sourceMap": false,
+    "sourceMap": true,
     "noEmit": false,
     "typeRoots": [
       "./node_modules/@types",
@@ -18,7 +18,8 @@
     ],
     "strict": true,
     "types": [
-      "node"
+      "node",
+      "jest"
     ],
     "lib": [
       "es2015",

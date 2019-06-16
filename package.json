@@ -12,7 +12,8 @@
     "format": "lerna run format --stream",
     "format-dry": "lerna run format-dry --stream",
     "semantic-release": "semantic-release",
-    "test": "echo \"Travis test\"",
+    "test": "lerna run test --stream",
+    "test-publish-coverage": "codecov -t 9c36f3c2-038e-42ad-a82d-b615b44daa8f",
     "predeploy": "git checkout continuous-integration/travis-ci && git pull origin develop --rebase",
     "deploy": "git push origin continuous-integration/travis-ci",
     "postdeploy": "git checkout -"
@@ -80,6 +81,19 @@
     ],
     "branch": "continuous-integration/travis-ci"
   },
+  "jest": {
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ],
+    "transform": {
+      ".*(ts|tsx)$": "ts-jest"
+    },
+    "testMatch": [
+      "**/src/*.test.(ts|tsx)"
+    ]
+  },
   "devDependencies": {
     "@commitlint/cli": "^8.0.0",
     "@commitlint/config-angular": "^8.0.0",
@@ -91,15 +105,20 @@
     "@semantic-release/git": "^7.0.12",
     "@semantic-release/npm": "^5.1.9",
     "@semantic-release/release-notes-generator": "^7.2.0",
+    "@types/jest": "^24.0.15",
     "@types/node": "^12.0.8",
     "@typescript-eslint/eslint-plugin-tslint": "^1.10.2",
+    "codecov": "^3.5.0",
     "eslint": "^5.16.0",
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-plugin-import": "^2.17.3",
     "husky": "^2.4.1",
+    "jest": "^24.8.0",
+    "jest-mock-console": "^1.0.0",
     "lerna": "^3.15.0",
     "prettier": "^1.18.2",
     "semantic-release": "^15.13.16",
+    "ts-jest": "^24.0.2",
     "tslint": "^5.17.0",
     "tslint-config-airbnb": "^5.11.1",
     "tslint-config-prettier": "^1.18.0",

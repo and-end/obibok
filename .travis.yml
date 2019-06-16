@@ -7,11 +7,14 @@ cache: npm
 branches:
   only:
   - continuous-integration/travis-ci
-  
+
 script:
   - npm run test
   - npm run lint
   - npm run format
+
+after_script:
+  - npm run test-publish-coverage
 
 after_success:
   - npm run semantic-release
