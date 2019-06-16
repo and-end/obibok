@@ -1,5 +1,8 @@
 # obibok
 
+[![Build Status](https://travis-ci.com/and-end/obibok.svg?branch=master)](https://travis-ci.com/and-end/obibok)
+[![Maintainability](https://api.codeclimate.com/v1/badges/3ecb2bfb41e54f129956/maintainability)](https://codeclimate.com/github/and-end/obibok/maintainability)
+
 Serwis standaryzujący wymagania w IT
 
 ## Wnoszenie swojego wkładu do projektu
