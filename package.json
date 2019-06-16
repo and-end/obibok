@@ -25,7 +25,7 @@
   "release": {
     "plugins": [
       [
-        "semantic-release/commit-analyzer",
+        "@semantic-release/commit-analyzer",
         {
           "preset": "angular",
           "parserOpts": {
@@ -38,7 +38,7 @@
         }
       ],
       [
-        "semantic-release/release-notes-generator",
+        "@semantic-release/release-notes-generator",
         {
           "preset": "angular",
           "parserOpts": {
@@ -87,7 +87,7 @@
     "@commitlint/prompt": "^8.0.0",
     "@commitlint/prompt-cli": "^8.0.0",
     "@semantic-release/changelog": "^3.0.4",
-    "@semantic-release/commit-analyzer": "^6.2.0",
+    "@semantic-release/commit-analyzer": "github:semantic-release/commit-analyzer",
     "@semantic-release/git": "^7.0.12",
     "@semantic-release/npm": "^5.1.9",
     "@semantic-release/release-notes-generator": "^7.2.0",
