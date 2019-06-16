@@ -8,6 +8,7 @@ setup_git() {
 
 pull_files() {
   git pull origin-obibok continuous-integration/travis-ci --rebase
+  git pull origin-obibok master --rebase
 }
 
 commit_website_files() {
