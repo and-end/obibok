@@ -2,5 +2,16 @@ language: node_js
 node_js:
   - "node"
 
+cache: npm
+
+branches:
+  only:
+  - continuous-integration/travis-ci
+  
+script:
+  - npm run test
+  - npm run lint
+  - npm run format
+
 after_success:
   - npm run semantic-release
