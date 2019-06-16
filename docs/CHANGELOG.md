@@ -1,3 +1,11 @@
+## [1.1.3](https://github.com/and-end/obibok/compare/v1.1.2...v1.1.3) (2019-06-16)
+
+
+### Bug Fixes
+
+* **ci:** change pull and commit order functions ([09ef671](https://github.com/and-end/obibok/commit/09ef671))
+* **ci:** pull from master when deploying ([175c421](https://github.com/and-end/obibok/commit/175c421))
+
 ## [1.1.2](https://github.com/and-end/obibok/compare/v1.1.1...v1.1.2) (2019-06-16)
 
 
