@@ -76,6 +76,7 @@
           "package-lock.json",
           "./docs/CHANGELOG.md"
         ],
+        "branch": "release/${nextRelease.version}",
         "message": "chore(release): ${nextRelease.version} [skip ci]nn${nextRelease.notes}"
       }
     ],
