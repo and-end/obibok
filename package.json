@@ -20,14 +20,16 @@
   },
   "husky": {
     "hooks": {
-      "commit-msg": "commitlint -e $GIT_PARAMS"
+      "commit-msg": "commitlint -e $GIT_PARAMS",
+      "pre-commit": "lint-staged"
     }
   },
   "lint-staged": {
     "*.js": [
       "npm run lint",
       "npm run format",
-      "git add"
+      "git add",
+      "git commit --amend --no-edit"
     ]
   },
   "release": {
