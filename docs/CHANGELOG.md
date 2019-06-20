@@ -1,3 +1,18 @@
+# [1.2.0](https://github.com/and-end/obibok/compare/v1.1.3...v1.2.0) (2019-06-20)
+
+
+### Bug Fixes
+
+* **lint-staged:** add husky hook ([8784de0](https://github.com/and-end/obibok/commit/8784de0))
+* **lint-staged:** add husky hook ([20b10bf](https://github.com/and-end/obibok/commit/20b10bf))
+* **lint-staged:** add no verify to commit script ([0caedaa](https://github.com/and-end/obibok/commit/0caedaa))
+* **utils:** change root path relative to package ([10d0c84](https://github.com/and-end/obibok/commit/10d0c84))
+
+
+### Features
+
+* **utils:** add absolute root paths util ([b6a4b6a](https://github.com/and-end/obibok/commit/b6a4b6a))
+
 ## [1.1.3](https://github.com/and-end/obibok/compare/v1.1.2...v1.1.3) (2019-06-16)
 
 
