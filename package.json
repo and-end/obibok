@@ -91,15 +91,6 @@
     ],
     "branch": "continuous-integration/travis-ci"
   },
-  "prettier": {
-    "singleQuote": true,
-    "semi": true,
-    "quoteProps": "as-needed",
-    "trailingComma": "none",
-    "bracketSpacing": true,
-    "jsxBracketSameLine": false,
-    "arrowParens": "always"
-  },
   "devDependencies": {
     "@commitlint/cli": "^8.0.0",
     "@commitlint/config-angular": "^8.0.0",
