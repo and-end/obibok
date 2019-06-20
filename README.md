@@ -15,6 +15,9 @@
 <br/>
 
 <p align='center'>
+    <a href='https://github.com/and-end/obibok/releases'>
+        <img alt='GitHub latest SemVer' src='https://img.shields.io/github/tag/and-end/obibok.svg?label=release' />
+    </a>
     <a href='https://travis-ci.com/and-end/obibok'>
         <img alt='Build Status' src='https://travis-ci.com/and-end/obibok.svg?branch=continuous-integration%2Ftravis-ci' />
     </a>
