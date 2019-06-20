@@ -1,17 +1,7 @@
-const base = require("../../jest.config.base.js");
-const packName = require("./package").name.replace('obibok-', '');
-const packageDir = `<rootDir>/packages/${packName}`;
+const makeJestConfig = require("../../utils/makeJestConfig");
 
-module.exports = {
-  ...base,
+module.exports = makeJestConfig({
   displayName: {
-    name: `${packName.toUpperCase()}`,
-    color: 'blue'
-  },
-  rootDir: "../..",
-  coverageDirectory: `<rootDir>/coverage/${packName}`,
-  testMatch: [
-    `${packageDir}/src/*.test.ts`,
-    `${packageDir}/__tests__/*.test.ts`
-  ],
-};
+    color: "cyan"
+  }
+});
