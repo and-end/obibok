@@ -6,6 +6,6 @@
         "lint-dry": "tslint -t prose -c ./tslint.json -p ./tsconfig.json",
         "format": "prettier --write ./src/**/*.ts",
         "format-dry": "prettier ./src/**/*.ts",
-        "test": "jest"
+        "test": "jest --colors"
     }
 }
