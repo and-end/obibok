@@ -1,1 +1,1 @@
-console.log("Hello app");
+console.log('Hello app');
