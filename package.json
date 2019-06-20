@@ -23,6 +23,13 @@
       "commit-msg": "commitlint -e $GIT_PARAMS"
     }
   },
+  "lint-staged": {
+    "*.js": [
+      "npm run lint",
+      "npm run format",
+      "git add"
+    ]
+  },
   "release": {
     "plugins": [
       [
@@ -113,6 +120,7 @@
     "jest": "^24.8.0",
     "jest-mock-console": "^1.0.0",
     "lerna": "^3.15.0",
+    "lint-staged": "^8.2.1",
     "prettier": "^1.18.2",
     "semantic-release": "^15.13.16",
     "ts-jest": "^24.0.2",
