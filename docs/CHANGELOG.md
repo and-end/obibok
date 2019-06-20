@@ -1,3 +1,11 @@
+## [1.2.1](https://github.com/and-end/obibok/compare/v1.2.0...v1.2.1) (2019-06-20)
+
+
+### Bug Fixes
+
+* **prettier:** change to correct config file name ([92ede20](https://github.com/and-end/obibok/commit/92ede20))
+* **prettier:** use base prettier config in packages ([55c6a19](https://github.com/and-end/obibok/commit/55c6a19))
+
 # [1.2.0](https://github.com/and-end/obibok/compare/v1.1.3...v1.2.0) (2019-06-20)
 
 
