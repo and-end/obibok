@@ -4,7 +4,7 @@
     "scripts": {
         "lint": "tslint --fix -t prose -c ./tslint.json -p ./tsconfig.json",
         "lint-dry": "tslint -t prose -c ./tslint.json -p ./tsconfig.json",
-        "format": "prettier --config ../../.prettierc --write ./src/**/*.ts",
+        "format": "prettier --config ../../.prettierrc --write ./src/**/*.ts",
         "format-dry": "prettier ./src/**/*.ts",
         "test": "jest --colors"
     }
