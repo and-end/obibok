@@ -29,7 +29,7 @@
       "npm run lint",
       "npm run format",
       "git add",
-      "git commit --amend --no-edit"
+      "git commit --amend -C HEAD --no-verify"
     ]
   },
   "release": {
