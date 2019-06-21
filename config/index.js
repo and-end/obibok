@@ -5,8 +5,7 @@ const util = require('util');
 const config = convict({
   env: {
     doc: 'The application environment.',
-    format: [
-      'production', "development"],
+    format: ['production', 'development'],
     default: 'development',
     env: 'NODE_ENV'
   }
