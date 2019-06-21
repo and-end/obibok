@@ -6,6 +6,9 @@
 		}
 	],
 	"settings": {
-		"files.eol": "\n"
+		"files.eol": "\n",
+		"files.associations": {
+			"**/config/*.json": "jsonc",
+		},
 	}
 }
