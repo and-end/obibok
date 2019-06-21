@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/and-end/obibok/compare/v1.4.0...v1.5.0) (2019-06-21)
+
+
+### Features
+
+* **bot:** ensure that obibok-bot is added to repo ([b461f08](https://github.com/and-end/obibok/commit/b461f08))
+
 # [1.4.0](https://github.com/and-end/obibok/compare/v1.3.0...v1.4.0) (2019-06-21)
 
 
