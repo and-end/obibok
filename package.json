@@ -25,11 +25,16 @@
     }
   },
   "lint-staged": {
-    "*.{ts,js}": [
-      "npm run lint",
-      "npm run format",
-      "git add",
-      "git commit --amend -C HEAD --no-verify"
+    "linters": {
+      "./packages/**/*.{ts,js}": [
+        "npm run lint",
+        "npm run format",
+        "git add"
+      ]
+    },
+    "ignore": [
+      "**/dist/**",
+      "**/node_modules/**"
     ]
   },
   "release": {
