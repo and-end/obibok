@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/and-end/obibok/compare/v1.3.0...v1.4.0) (2019-06-21)
+
+
+### Features
+
+* **config:** add config manager ([7dd7e08](https://github.com/and-end/obibok/commit/7dd7e08))
+
 # [1.3.0](https://github.com/and-end/obibok/compare/v1.2.1...v1.3.0) (2019-06-21)
 
 
