@@ -1,3 +1,17 @@
+# [1.3.0](https://github.com/and-end/obibok/compare/v1.2.1...v1.3.0) (2019-06-21)
+
+
+### Bug Fixes
+
+* **prettier:** add consistent printWidth in regards to tslint ([7d59eef](https://github.com/and-end/obibok/commit/7d59eef))
+* **lint-staged:** remove git commit in lint-staged script ([cbece58](https://github.com/and-end/obibok/commit/cbece58))
+* **lint-staged:** search for js and ts files ([3566315](https://github.com/and-end/obibok/commit/3566315))
+
+
+### Features
+
+* **vscode:** associate config json files with jsonc format ([adced09](https://github.com/and-end/obibok/commit/adced09))
+
 ## [1.2.1](https://github.com/and-end/obibok/compare/v1.2.0...v1.2.1) (2019-06-20)
 
 
