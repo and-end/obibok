@@ -1,7 +1,7 @@
-const makeJestConfig = require("../../utils/makeJestConfig");
+const makeJestConfig = require('../../utils/makeJestConfig');
 
 module.exports = makeJestConfig({
   displayName: {
-    color: "cyan"
+    color: 'cyan'
   }
 });
