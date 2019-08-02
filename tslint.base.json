@@ -9,6 +9,7 @@
     "jsRules": {},
     "rules": {
         "no-import-side-effect": [true, {"ignore-module": "(\\.html|\\.css|\\.scss)$"}],
+        "interface-name": [true, "never-prefix"],
         "prefer-function-over-method": false,
         "no-implicit-dependencies": false,
         "object-literal-sort-keys": false,
