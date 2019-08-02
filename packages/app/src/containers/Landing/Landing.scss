@@ -1,0 +1,88 @@
+.Landing {
+  @apply flex relative overflow-hidden font-serif text-black;
+  height: calc(100vh - 100px);
+  box-sizing: border-box;
+}
+
+.Landing::after {
+  @apply absolute bg-obibok-green;
+  content: '';
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding-bottom: 15%;
+  clip-path: polygon(0% 100%, 0% 0%, 80% 100%);
+}
+
+.LandingMain {
+  @apply bg-gray-100 flex flex-col items-start justify-start;
+  flex: 0.59;
+  padding: 3.4vmin 3.4vmax;
+  padding-top: 13vmin;
+}
+
+.LandingArticle {
+  @apply flex flex-col;
+  padding-left: 8vmin;
+}
+
+.LandingTitle {
+  @apply font-semibold;
+  font-size: responsive 32px 48px;
+  line-height: responsive 48px 56px;
+  font-range: theme('screens.sm') theme('screens.lg');
+  margin-bottom: 3.75vmin;
+
+  span {
+    @apply text-gray-500;
+    
+    &:nth-of-type(odd) {
+      @apply text-obibok-gold-dark;
+    }
+  }
+}
+
+.LandingContentWrapper {
+  @apply text-gray-700;
+  font-size: responsive 16px 18px;
+  line-height: responsive 42px 34px;
+  font-range: theme('screens.sm') theme('screens.lg');
+}
+
+.LandingContent {
+  @apply relative;
+  margin-bottom: 0.4vmax;
+  z-index: 20;
+}
+
+.LandingContentItem {
+  @apply relative italic;
+  line-height: responsive 42px 36px;
+  z-index: 20;
+}
+
+.LandingLearnMoreButton {
+  @apply relative bg-obibok-gold text-black font-bold self-end;
+  font-size: responsive 20px 22px;
+  padding: 0.2vmin 2vmin 0.6vmin;
+  border-radius: 5px;
+  margin: 8vmin 6vmin;
+  font-variant-caps: all-petite-caps;
+  box-shadow: 0 0 14px -2px theme('colors.obibok.gold');
+  word-spacing: 0.25vmin;
+  z-index: 20;
+}
+
+.LandingPanel {
+  @apply relative;
+  flex: 0.41;
+  padding: 3.4vmin 2vmax;
+}
+
+.LandingImage {
+  position: absolute;
+  bottom: -12%;
+  right: -1.5%;
+  width: calc(44vmax + 3vw);
+  z-index: 10;
+}
