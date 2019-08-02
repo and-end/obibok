@@ -1,6 +1,17 @@
 {
-    "extends": "../../tsconfig.base.json",
-    "compilerOptions": {
-        "lib": ["dom"]
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "lib": ["dom"],
+    "baseUrl": ".",
+    "paths": {
+      "@root": ["./*"],
+      "@utils": ["../../utils/*"],
+      "@styles": ["./styles/*"],
+      "@components": ["./src/components"],
+      "@containers": ["./src/containers"],
+      "@dictionary": ["src/dictionary"],
+      "@stores": ["./src/stores"],
+      "@routes": ["./src/routes"]
     }
+  }
 }

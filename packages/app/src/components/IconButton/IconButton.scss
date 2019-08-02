@@ -1,0 +1,19 @@
+.IconButton {
+    @apply flex flex-row justify-center items-center;
+
+    &:global(.right) {
+        @apply flex-row-reverse;
+    }
+}
+
+.IconButtonText {
+    font-variant-caps: all-petite-caps;
+    font-size: responsive 14px 16px;
+    font-range: theme('screens.sm') theme('screens.lg');
+}
+
+.IconButtonIcon {
+    @apply mx-1;
+    height: 1.05em;
+    width: 1.05em;
+}

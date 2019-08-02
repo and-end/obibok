@@ -3,17 +3,20 @@ const colors = require('colors');
 const util = require('util');
 
 const config = convict({
-  env: {
+  ENV: {
     doc: 'The application environment.',
-    format: [
-      'production', "development"],
+    format: ['production', 'development'],
     default: 'development',
     env: 'NODE_ENV'
+  },
+  APP_NAME: {
+    doc: 'Application name.',
+    default: 'obibok'
   }
 });
 
-const env = config.get('env');
-const configPath = `./config/${env}.json5`;
+const env = config.get('ENV');
+const configPath = `${__dirname}/${env}.json`;
 
 try {
   config.loadFile(configPath);

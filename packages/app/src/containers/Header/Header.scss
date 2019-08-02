@@ -1,0 +1,65 @@
+.Header {
+  @apply flex items-center flex-row flex-no-wrap;
+  height: 100px;
+}
+
+.HeaderMain,
+.HeaderAside,
+.HeaderLinks {
+  @apply flex flex-row items-center justify-end relative;
+  height: 100%;
+}
+
+.HeaderMain {
+  @apply justify-between bg-gray-100;
+  flex: 0.59;
+  padding: 0 3.4vmax;
+}
+
+.HeaderAside {
+  @apply bg-white;
+  flex: 0.41;
+  padding: 0 2vmax;
+  font-size: responsive 14px 16px;
+  font-range: theme('screens.sm') theme('screens.lg');
+}
+
+.HeaderLogoContent {
+  @apply font-serif font-bold;
+  font-size: responsive 24px 32px;
+  font-range: theme('screens.sm') theme('screens.lg');
+}
+
+.HeaderLinks {
+  @apply items-start flex-wrap;
+  padding: 1vmax 0;
+}
+
+.HeaderLink {
+  @apply whitespace-no-wrap;
+  margin: 0 .5vmax;
+
+  &:first-of-type {
+    margin-left: 0;
+  }
+
+  &:last-of-type {
+    margin-right: 0;
+  }
+}
+
+.HeaderLocaleButton {
+  font-size: 16px;
+}
+
+.HeaderLocaleButtonIcon {
+  @apply mx-1;
+  height: auto;
+  width: 1.05em;
+}
+
+.HeaderLocaleButtonText {
+  font-size: 20px;
+  font-variant-caps: all-petite-caps;
+  margin-bottom: 3px;
+}

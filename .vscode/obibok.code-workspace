@@ -3,12 +3,24 @@
 		{
 			"path": "../",
 			"name": "obibok"
+		},
+		{
+			"path": "../packages/app",
+			"name": "packages/app"
+		},
+		{
+			"path": "../packages/server",
+			"name": "packages/server"
 		}
 	],
 	"settings": {
+		"svelte.plugin.css.diagnostics.enable": false,
 		"files.eol": "\n",
 		"files.associations": {
 			"**/config/*.json": "jsonc",
 		},
+		"files.exclude": {
+			"packages": true,
+		}
 	}
 }
