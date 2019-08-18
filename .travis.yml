@@ -2,11 +2,12 @@ language: node_js
 node_js:
   - "node"
 
-cache: npm
-
 branches:
   only:
   - continuous-integration/travis-ci
+
+before_install:
+  - npm run bootstrap
 
 script:
   - npm run test

@@ -10,7 +10,7 @@
         "lint-dry": "tslint -t prose -c ./tslint.json -p ./tsconfig.json",
         "format": "prettier --config ../../.prettierrc --write ./src/**/*.ts",
         "format-dry": "prettier ./src/**/*.ts",
-        "test": "jest --colors --config jest.config.js",
+        "test": "jest --colors --config jest.config.js --passWithNoTests",
         "dev": "webpack-dev-server",
         "prod": "NODE_ENV=production webpack"
     },
