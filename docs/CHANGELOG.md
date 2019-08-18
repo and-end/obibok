@@ -1,3 +1,16 @@
+# [1.6.0](https://github.com/and-end/obibok/compare/v1.5.0...v1.6.0) (2019-08-18)
+
+
+### Bug Fixes
+
+* **travis:** install lerna globally ([2d34d7a](https://github.com/and-end/obibok/commit/2d34d7a))
+* **travis:** resolve tsconfig paths and bootstrap before running ci ([333d90c](https://github.com/and-end/obibok/commit/333d90c))
+
+
+### Features
+
+* **app:** add initial view ([3224829](https://github.com/and-end/obibok/commit/3224829))
+
 # [1.5.0](https://github.com/and-end/obibok/compare/v1.4.0...v1.5.0) (2019-06-21)
 
 
