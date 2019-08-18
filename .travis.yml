@@ -7,6 +7,7 @@ branches:
   - continuous-integration/travis-ci
 
 before_install:
+  - npm install -g lerna
   - npm run bootstrap
 
 script:
