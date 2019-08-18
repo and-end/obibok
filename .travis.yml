@@ -21,3 +21,9 @@ after_script:
 
 after_success:
   - npm run semantic-release
+
+deploy:
+  skip_cleanup: true
+  provider: firebase
+  token:
+    secure: $FIREBASE_TOKEN
