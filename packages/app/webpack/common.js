@@ -163,7 +163,9 @@ module.exports = {
     children: true
   },
   entry: {
-    bundle: [`${paths.app}/src/index.ts`]
+    app: `${paths.app}/src/index.ts`,
+    fonts: `${paths.app}/styles/fonts.scss`,
+    styleIndex: `${paths.app}/styles/index.scss`
   },
   output: {
     path: paths['app/public'],

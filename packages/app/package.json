@@ -1,10 +1,7 @@
 {
     "name": "obibok-app",
     "private": true,
-    "sideEffects": [
-        "*.scss",
-        "*.css"
-    ],
+    "sideEffects": false,
     "scripts": {
         "lint": "tslint --fix -t prose -c ./tslint.json -p ./tsconfig.json",
         "lint-dry": "tslint -t prose -c ./tslint.json -p ./tsconfig.json",
