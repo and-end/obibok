@@ -8,6 +8,7 @@ const config = require(paths.config);
 module.exports = {
   mode: config.get('ENV'),
   watch: true,
+  devtool: 'eval-source-map',
 
   optimization: {
     removeAvailableModules: false,
